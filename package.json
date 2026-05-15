@@ -1,0 +1,34 @@
+{
+  "name": "notion-cli",
+  "version": "0.14.0",
+  "description": "api2cli-compatible wrapper for the official Notion CLI (ntn)",
+  "type": "module",
+  "bin": {
+    "notion-cli": "./dist/notion-cli.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "bun build src/index.ts --outfile dist/notion-cli.js --target bun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nardjo/notion-cli.git"
+  },
+  "homepage": "https://github.com/Nardjo/notion-cli#readme",
+  "keywords": [
+    "notion",
+    "notion-cli",
+    "ntn",
+    "api2cli",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.0"
+  }
+}
